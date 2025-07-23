@@ -27,7 +27,7 @@ export async function authenticate(
       {},
       {
         sign: {
-          subject: user.id,
+          sub: user.id
         },
       }
     )
